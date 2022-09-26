@@ -4,10 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ['Developer', 'UI/UX Designer', 'Musician'];
+    const toRotate = ['Developer ', 'UI/UX Designer ', 'Musician '];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(200 - Math.random() * 100);
-    const period = 1500;
+    const [delta, setDelta] = useState(100 - Math.random() * 100);
+    const period = 50;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -34,7 +34,7 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(320);
         }
     };
 

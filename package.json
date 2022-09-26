@@ -2,7 +2,7 @@
     "name": "resume-website",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://freedmk.github.io",
+    "homepage": "https://freedmk.github.io/personal-portfolio",
     "dependencies": {
         "@babel/runtime": "^7.19.0",
         "@emailjs/browser": "^3.7.0",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutPage } from './components/About';
+import { Skills } from './components/Skills';
 import './Application.css';
 import { NavBar } from './components/Navbar';
 import { Banner } from './components/Banner';
@@ -18,7 +18,7 @@ const Application: React.FunctionComponent<IApplicationProps> = (props) => {
         <div className="App">
             <NavBar />
             <Banner />
-            <AboutPage />
+            <Skills />
             <Experience />
             <Contact />
         </div>

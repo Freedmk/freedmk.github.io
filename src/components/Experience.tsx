@@ -3,7 +3,7 @@ import { Box } from 'react-bootstrap-icons';
 
 export const Experience = () => {
     return (
-        <section className="experience">
+        <section className="experience" id="experience">
             <Container>
                 <Row>
                     <Col>

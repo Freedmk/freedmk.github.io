@@ -24,7 +24,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 75px;
+    scroll-padding-top: 175px;
 }
 
 body {
@@ -272,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     display: block;
 }
 .banner p {
-    color: #ffffff;
+    color: #5a054c;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;

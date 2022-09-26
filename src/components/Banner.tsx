@@ -4,10 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ['Developer ', 'Web Designer ', 'Musician '];
+    const toRotate = ['Developer', 'UI/UX Designer', 'Musician'];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
+    const period = 1500;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -46,11 +46,14 @@ export const Banner = () => {
                         <span className="tagline">Welcome to my Portfolio </span>
                         <h1>
                             {`Hi I'm Katerina `}
+                            <br></br>
                             <span className="wrap">{text}</span>
+                            <br></br>
                         </h1>
                         <p>
-                            I am a graduate from Western Washington Universiy where I earned a Bachelor's in Computer Science and a Bachelor's in Music. I am currently looking for a job in software
-                            engineering. Please take a look around to learn more about me and if you're interested in speaking feel free to contact me, connect on LinkedIn, or download my resume!
+                            I am a graduate from Western Washington Universiy where I earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Music. I am currently looking for a job
+                            in software engineering. Please take a look around to learn more about me and if you're interested in speaking feel free to contact me, connect on LinkedIn, or download my
+                            resume!
                         </p>
                     </Col>
                 </Row>

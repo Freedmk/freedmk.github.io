@@ -7,7 +7,7 @@ import meter2 from '../assets/img/skill2.png';
 import meter3 from '../assets/img/skill3.png';
 import meter4 from '../assets/img/skill4.png';
 
-export const AboutPage = () => {
+export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.

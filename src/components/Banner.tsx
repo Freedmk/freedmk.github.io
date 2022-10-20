@@ -45,15 +45,19 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio </span>
                         <h1>
-                            {`Hi I'm Katerina `}
+                            {`Hi, I'm Katerina`}
                             <br></br>
-                            <span className="wrap">{text}</span>
-                            <br></br>
+                            <div className="wrapper">
+                                <div className="words">
+                                    <span className="word">Full Stack Developer</span>
+                                    <span className="word">UI/UX Designer</span>
+                                    <span className="word">Musician</span>
+                                </div>
+                            </div>
                         </h1>
                         <p>
                             I am a graduate from Western Washington Universiy where I earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Music. I am currently looking for a job
-                            in software engineering. Please take a look around to learn more about me and if you're interested in speaking feel free to contact me, connect on LinkedIn, or download my
-                            resume!
+                            in software engineering. Please take a look around to learn more about me and if you're interested in speaking feel free to contact me or connect on LinkedIn!
                         </p>
                     </Col>
                 </Row>

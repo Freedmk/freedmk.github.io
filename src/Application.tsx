@@ -6,6 +6,7 @@ import { Banner } from './components/Banner';
 import { Contact } from './components/Contact';
 import { Experience } from './components/Experience';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 
 export interface IApplicationProps {}
 
@@ -17,6 +18,7 @@ const Application: React.FunctionComponent<IApplicationProps> = (props) => {
             <Skills />
             <Experience />
             <Contact />
+            <Footer />
         </div>
     );
 };

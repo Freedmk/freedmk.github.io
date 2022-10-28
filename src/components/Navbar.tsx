@@ -1,6 +1,6 @@
 import React, { useState, useEffect, SetStateAction } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import logo from '../assets/img/blackCat.svg';
+import logo from '../assets/img/me.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcong from '../assets/img/nav-icong.svg';
 import { HashLink } from 'react-router-hash-link';
@@ -32,7 +32,7 @@ export const NavBar = () => {
         <Router>
             <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
                 <Container>
-                    <img src={logo} alt="Logo" />
+                    <div className="image-cropper" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>

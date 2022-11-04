@@ -1,7 +1,6 @@
-import { type } from '@testing-library/user-event/dist/type';
-import { useState } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import WorkCards from './Card';
+import logo1 from '../assets/img/omnidian-logo.png';
 
 export const Experience = () => {
     type cards = [
@@ -24,31 +23,13 @@ export const Experience = () => {
             <Row>
                 <h1>Work Experience</h1>
                 <Col>
-                    <WorkCards
-                        company="Omnidian"
-                        role="Full Stack Software Engineer Intern"
-                        infoA="Maintained SQL database"
-                        infoB=" Programmed in ReactJs to develop and maintain features of a full stack internal operations website"
-                        infoC="Tested and maintained code"
-                    />
+                    <WorkCards company="Omnidian" role="Full Stack Software Engineer Intern" url="https://www.omnidian.com/" />
                 </Col>
                 <Col>
-                    <WorkCards
-                        company="Verathon"
-                        role="Embedded Software Engineer Intern"
-                        infoA="Deployed key UX updates and repaired Repaired several bugs, using C++ and Qt, onto a bladder scanner"
-                        infoB="Programmed public key encryptions for user data"
-                        infoC="Built a linux environment on a virtual machine"
-                    />
+                    <WorkCards company="Verathon" role="Embedded Software Engineer Intern" url="https://www.verathon.com/" />
                 </Col>
                 <Col>
-                    <WorkCards
-                        company="PACCAR"
-                        role="Desktop Support Intern"
-                        infoA="Migrated employees to iPhone 11’s"
-                        infoB="Upgraded and Repaired  employees computers Operating Systems. "
-                        infoC="Built scripts for streamlined  information collection from an AWS database"
-                    />
+                    <WorkCards company="PACCAR" role="Desktop Support Intern" url="https://www.paccar.com/" />
                 </Col>
             </Row>
         </section>

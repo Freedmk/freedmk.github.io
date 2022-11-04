@@ -409,20 +409,27 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     font-size: 50px;
 }
 /*card*/
-.card {
+.buttons {
+    flex: display;
     padding: 10px 50px 10px 50px;
+    margin-left: 12%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     background: linear-gradient(#e6e1eb, #aa81d8);
+    text-decoration: none;
 }
-.card h2 {
+.experience h2 {
     text-align: center;
     color: #000000;
 }
-.card h2:hover {
-    color: #ac82d4;
-    text-decoration: none;
+.buttons:hover {
+    color: #002ead;
+    transition: 0.7s;
 }
-.card p {
+.buttons p {
     text-align: center;
+    color: #140122;
 }
 /************ Resume Css ************/
 .resume {

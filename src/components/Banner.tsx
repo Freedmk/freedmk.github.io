@@ -57,7 +57,8 @@ export const Banner = () => {
                         </h1>
                         <p className="blurb">
                             I am a graduate from Western Washington Universiy where I earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Music. I am currently looking for a job
-                            in software engineering. Please take a look around to learn more about me and if you're interested in speaking feel free to contact me or connect on LinkedIn!
+                            in software engineering. I am a creative, self-driven programmer motivated to make an impact. Please take a look around to learn more about me and if you're interested in
+                            speaking, download my resume, fill in the email form, and connect with me on LinkedIn!
                         </p>
                     </Col>
                 </Row>

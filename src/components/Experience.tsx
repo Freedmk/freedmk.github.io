@@ -1,5 +1,5 @@
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import WorkCards from './Card';
 import logo1 from '../assets/img/omnidian-logo.png';
 
 export const Experience = () => {
@@ -23,13 +23,28 @@ export const Experience = () => {
             <Row>
                 <h1>Work Experience</h1>
                 <Col>
-                    <WorkCards company="Omnidian" role="Full Stack Software Engineer Intern" url="https://www.omnidian.com/" />
+                    <a href="https://www.omnidian.com/">
+                        <button className="buttons">
+                            <h2>Omnidian</h2>
+                            <p>Full Stack Software Engineer Intern</p>
+                        </button>
+                    </a>
                 </Col>
                 <Col>
-                    <WorkCards company="Verathon" role="Embedded Software Engineer Intern" url="https://www.verathon.com/" />
+                    <a href="https://www.verathon.com/">
+                        <button className="buttons">
+                            <h2>Verathon</h2>
+                            <p>Embedded Software Engineer Intern</p>
+                        </button>
+                    </a>
                 </Col>
                 <Col>
-                    <WorkCards company="PACCAR" role="Desktop Support Intern" url="https://www.paccar.com/" />
+                    <a href="https://www.paccar.com/">
+                        <button className="buttons">
+                            <h2>Paccar</h2>
+                            <p>Desktop Support Intern</p>
+                        </button>
+                    </a>
                 </Col>
             </Row>
         </section>

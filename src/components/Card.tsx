@@ -9,12 +9,12 @@ type CardProps = {
 
 const Card: FC<CardProps> = ({ company, role, url }) => {
     return (
-        <div className="card">
+        <span className="card">
             <a href={url}>
                 <h2> {company}</h2>
             </a>
             <p>{role}</p>
-        </div>
+        </span>
     );
 };
 

@@ -254,7 +254,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-    margin-top: 0;
     padding: 250px 0 150px 0;
     background-image: url('./assets/img/backgroundClouds.jpg');
     background-position: top center;
@@ -293,24 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     border-width: 3px;
     padding: 10px 10px;
 }
-.banner button {
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
-}
-.banner button svg {
-    font-size: 25px;
-    margin-left: 70%;
-    transition: 0.3s ease-in-out;
-    line-height: 1;
-}
-.banner button:hover svg {
-    margin-left: 45px;
-}
+
 .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
 }
@@ -414,12 +396,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 /************ Experience Css ************/
 .experience {
     background: linear-gradient(#ac82d4, #07010e);
-    padding: 0 0 50px 0;
     position: relative;
     height: 100vh;
     display: flex;
-    padding: 0 4em;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -431,9 +410,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 /*card*/
 .card {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
+    padding: 10px 50px 10px 50px;
     background: linear-gradient(#e6e1eb, #aa81d8);
 }
 .card h2 {
@@ -442,6 +419,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 .card h2:hover {
     color: #ac82d4;
+    text-decoration: none;
 }
 .card p {
     text-align: center;

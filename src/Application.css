@@ -408,7 +408,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     color: #000;
     font-size: 50px;
 }
-/*card*/
+.experience h2 {
+    text-align: center;
+    color: #000000;
+}
 .buttons {
     flex: display;
     padding: 10px 50px 10px 50px;
@@ -416,21 +419,22 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(#e6e1eb, #aa81d8);
+    background: linear-gradient(#e3dfe7, #803acf);
+    /* background-color: #6a0dad; */
     text-decoration: none;
 }
-.experience h2 {
-    text-align: center;
-    color: #000000;
-}
-.buttons:hover {
-    color: #002ead;
-    transition: 0.7s;
-}
+
 .buttons p {
     text-align: center;
     color: #140122;
+    font-size: 20px;
 }
+.buttons:hover {
+    background: linear-gradient(#803acf, #e6e1eb);
+    transform: scale(1.09);
+    transition: 0.7s;
+}
+
 /************ Resume Css ************/
 .resume {
     background: linear-gradient(#ac82d4, #07010e);

@@ -11,9 +11,8 @@ export const Skills = () => {
     const slideImages = [skill1, skill2, skill3, skill4, skill5];
     const text = ['Full Stack Web Development', 'Profficent in Object-Oriented Programming', 'Experience in many programming languages', 'Highly Creative and Collaborative', 'Motivated learner'];
     const [index, setIndex] = React.useState(0);
-    const [setText] = React.useState(0);
     const delay = 2500;
-    const timeoutRef = React.useRef(null);
+    const timeoutRef = React.useRef(0);
 
     React.useEffect(() => {
         resetTimeout();
